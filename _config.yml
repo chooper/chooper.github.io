@@ -9,6 +9,16 @@ plugins:
   - jekyll-github-metadata
   - jemoji
 
+title: "subfn's playground"
+description: |
+  A blog where I experiment with and share what I learn about
+  about application security, bug bounty hunting, and
+  other information security topics.
+
+author:
+  name: subfn
+  twitter: subfnSecurity
+
 permalink: /:year/:month/:day/:title/
 
 defaults:
