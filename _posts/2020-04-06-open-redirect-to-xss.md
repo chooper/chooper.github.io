@@ -45,7 +45,7 @@ There wasn't any form of validation or sanitization of the `nextUrl` parameter m
 Finally, because this open redirect / XSS was present on the login page and, as we learned, the JavaScript we write has access to the DOM, this XSS could steal valid usernames and passwords!
 
 # Bonus bug bounty tip
-If you find one of these, *report it as an XSS*. Obviously explain that this vulnerability exists but your initial technical severity should be based on the fact that we have client-side code execution.
+If you find one of these, *report it as an XSS*. Obviously explain that this vulnerability stems from an open redirect but your initial technical severity should be based on the fact that we have client-side code execution.
 
 If you need more convincing, here is [@hakluke, a Bugcrowd employee, telling me to report these are XSSes](https://twitter.com/hakluke/status/1242951288305750016) too!
 
