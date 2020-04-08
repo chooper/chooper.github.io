@@ -34,7 +34,7 @@ If you want to experiment with this concept a little bit yourself, I've thrown u
 # In the wild
 I recently came across and reported one of these for a bug bounty.
 
-The open redirect was in the page target's login modal. The login flow was:
+The open redirect was in the target's login modal. The login flow was:
 
 1. The user enters their username and password and clicks "login"
 1. Instead of being sent to a new page during login, the credentials are submitted to an API endpoint for authentication using a [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest) ("AJAX")
