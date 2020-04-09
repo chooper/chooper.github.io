@@ -1,4 +1,6 @@
---- title: "How some open redirect vulnerabilities are XSSes in disguise" ---
+---
+title: "How some open redirect vulnerabilities are XSSes in disguise"
+---
 One class of vulnerability that doesn't seem to get much attention is the [open
 redirect](https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html).
 In this post, I am going to give a little bit of background on open redirect
