@@ -1,7 +1,6 @@
 layout: sidebar
 remote_theme: mmistakes/jekyll-theme-basically-basic@1.4.4
-# I don't know if this is used anywhere now but I'll keep it
-#style: light
+google_analytics: UA-163784647-1
 
 plugins:
   - jekyll-remote-theme
