@@ -1,6 +1,5 @@
 ---
 title: "Neat OSINT trick: Google account disclosure"
-published: false
 ---
 
 Recently I discovered a little OSINT trick that lets you discover if an email address has a Google account associated with it and, if so, the address of that account.
